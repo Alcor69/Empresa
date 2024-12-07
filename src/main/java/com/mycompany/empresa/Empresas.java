@@ -57,6 +57,16 @@ public class Empresas {
     public void setEmail(String Email) {
         this.Email = Email;
     }
+
+    public List<Empleados> getEmpleados() {
+        return empleados;
+    }
+
+    public void setEmpleados(List<Empleados> empleados) {
+        this.empleados = empleados;
+    }
+    
+    
     
 
     
